@@ -71,7 +71,9 @@ function Projects() {
           <p><b>Technologies:</b> Java, Spring Boot, GraphQL</p>
 
           <div className="project-links">
-            <a href="https://github.com/ashukale1608/graphQLwithSpringBoot" target="_blank">GitHub</a>
+            <a href="https://github.com/ashukale1608/graphQLwithSpringBoot" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </div>
         </div>
 
@@ -85,7 +87,9 @@ function Projects() {
           <p><b>Technologies:</b> Java, Spring Boot, MySQL</p>
 
           <div className="project-links">
-            <a href="https://github.com/ashukale1608/Student-Menegment-system" target="_blank">GitHub</a>
+            <a href="https://github.com/ashukale1608/Student-Menegment-system" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </div>
         </div>
 
@@ -99,7 +103,9 @@ function Projects() {
           <p><b>Technologies:</b> Java, Spring Boot, Thymeleaf</p>
 
           <div className="project-links">
-            <a href="https://github.com/ashukale1608/Smart-contect-app" target="_blank">GitHub</a>
+            <a href="https://github.com/ashukale1608/Smart-contect-app" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </div>
         </div>
 
