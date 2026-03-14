@@ -1,0 +1,36 @@
+.experience{
+    padding:80px 20px;
+    background:#020617;
+    color:white;
+    text-align:center;
+}
+
+.experience h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.experience-card{
+    max-width:800px;
+    margin:auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:10px;
+    text-align:left;
+}
+
+.experience-card h3{
+    color:#00d4ff;
+}
+
+.experience-card ul{
+    margin-top:15px;
+}
+
+.experience-card li{
+    margin-bottom:8px;
+}
+
+.date{
+    color:#94a3b8;
+}

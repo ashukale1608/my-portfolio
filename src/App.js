@@ -1,20 +1,26 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./log.in.page/Login";
-import Home from "./home.page/Home";
+import Home from "./components/home/Home";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
+import Skills from "./components/Skills/Skills";
+import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
-    <BrowserRouter>
-
-      <Routes>
-
-        <Route path="/" element={<Login />} />
-
-        <Route path="/home" element={<Home />} />
-
-      </Routes>
-
-    </BrowserRouter>
+    <>
+     <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
