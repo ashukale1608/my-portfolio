@@ -16,7 +16,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ashwini-kale-201844287/"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,7 +24,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://github.com"
+          href="https://github.com/ashukale1608"
           target="_blank"
           rel="noreferrer"
         >

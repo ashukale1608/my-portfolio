@@ -87,7 +87,7 @@ function Projects() {
           <p><b>Technologies:</b> Java, Spring Boot, MySQL</p>
 
           <div className="project-links">
-            <a href="https://github.com/ashukale1608/Student-Menegment-system" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ashukale1608/Student-Manegment-system" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </div>
