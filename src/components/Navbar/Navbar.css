@@ -1,0 +1,38 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;   /* IMPORTANT FIX */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #020617;
+    color: white;
+    z-index: 1000;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+    color:#00d4ff;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#00d4ff;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+}
