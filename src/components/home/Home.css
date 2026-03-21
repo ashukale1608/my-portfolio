@@ -104,9 +104,9 @@ body {
 
 .highlight {
   background: linear-gradient(45deg, #00d4ff, #007cf0);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   animation: glow 2s ease-in-out infinite alternate;
 }
 

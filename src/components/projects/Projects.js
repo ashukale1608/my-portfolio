@@ -114,9 +114,7 @@ function Projects() {
             </a>
           </div>
         </div>
-
       </div>
-
     </section>
   );
 }
