@@ -24,15 +24,19 @@
 }
 
 .project-card{
-    background:#0f172a;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* background:#0f172a; */
     padding:25px;
     border-radius:10px;
     transition:0.3s;
 }
 
 .project-card:hover{
-    transform:translateY(-6px);
+    transform:translateY(-10px) scale(1.02);
     background:#1e293b;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
 }
 
 .project-card h4{

@@ -12,9 +12,34 @@
 }
 
 .logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: #00d4ff;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo-first {
+  color: white;
+}
+
+.logo-last {
+  color: #00d4ff;
+  position: relative;
+}
+
+/* underline animation */
+.logo-last::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00d4ff;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.logo:hover .logo-last::after {
+  width: 100%;
 }
 
 .nav-links {
@@ -27,6 +52,22 @@
     text-decoration: none;
     color: white;
     font-weight: 500;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #00d4ff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
 }
 
 .nav-links a:hover {

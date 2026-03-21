@@ -1,11 +1,17 @@
 import React from "react";
 import "./Experience.css";
+import { motion } from "framer-motion";
 
 function Experience() {
   return (
     <section id="experience" className="experience">
-
-      <h2>Work Experience</h2>
+      <motion.h2
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        Work Experience
+      </motion.h2>
 
       <div className="experience-card">
 

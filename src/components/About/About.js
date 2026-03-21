@@ -1,12 +1,17 @@
 import React from "react";
 import "./About.css";
+import { motion } from "framer-motion";
 
 function About() {
   return (
     <section id="about" className="about">
-
-      <h2>About Me</h2>
-
+      <motion.h2
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        About Me
+      </motion.h2>
       <div className="about-container">
 
         <p>
@@ -24,7 +29,7 @@ function About() {
         <p>
           I also have experience working with <b>Node.js and Express.js</b> and
           frontend technologies like <b>React, Angular, JavaScript, and
-          TypeScript</b>.
+            TypeScript</b>.
         </p>
 
         <p>

@@ -3,13 +3,18 @@ import "./Skills.css";
 
 import { FaJava, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
 import { SiSpringboot, SiApachekafka, SiMysql, SiJavascript, SiTypescript, SiAngular } from "react-icons/si";
+import { motion } from "framer-motion";
 
 function Skills() {
     return (
         <section id="skills" className="skills">
-
-            <h2>Technical Skills</h2>
-
+            <motion.h2
+                initial={{ opacity: 0, y: -50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+            >
+                Technical Skills
+            </motion.h2>
             <div className="skills-container">
 
                 <div className="skill-card">

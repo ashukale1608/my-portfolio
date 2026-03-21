@@ -1,11 +1,17 @@
 import React from "react";
 import "./Projects.css";
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
     <section id="projects" className="projects">
-
-      <h2>Projects</h2>
+      <motion.h2
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <h2>Projects</h2>
+      </motion.h2>
 
       {/* Client Projects */}
       <h3 className="project-category">Professional Experience</h3>

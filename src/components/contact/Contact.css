@@ -18,11 +18,21 @@
     flex-wrap:wrap;
 }
 
-.contact-item{
-    background:#1e293b;
-    padding:20px;
-    border-radius:10px;
+.contact-item {
     width:220px;
+
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+
+    border-radius:12px;
+    padding:20px;
+
+    transition:0.3s;
+}
+
+.contact-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,212,255,0.2);
 }
 
 .social-links{

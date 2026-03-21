@@ -10,7 +10,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Ashwini Kale</div>
+      <div className="logo">
+        <span className="logo-first">Ashwini</span>{" "}
+        <span className="logo-last">Kale</span>
+      </div>
       <div
         className="hamburger"
         onClick={() => setMenuOpen(!menuOpen)}

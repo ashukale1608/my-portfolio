@@ -35,3 +35,23 @@
     transform: rotate(360deg);
   }
 }
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(0, 212, 255, 0.5);
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: blur(5px);
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: #00d4ff;
+  z-index: 9999;
+}
